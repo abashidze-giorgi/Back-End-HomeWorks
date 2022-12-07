@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BeckEndLessons.classes
+﻿namespace BeckEndLessons.classes
 {
     public class ClassAndHomeWorks
     {
@@ -14,16 +8,11 @@ namespace BeckEndLessons.classes
             exercises.Add("Home work 3_1:", 31);
             exercises.Add("Home work 3_2:", 32);
             exercises.Add("Home work 3_3:", 33);
-            //exercises.Add("Home work 3_1:", 4);
-            //exercises.Add("Home work 3_1:", 5);
-            //exercises.Add("Home work 3_1:", 6);
             exercises.Add("Home Work 7_1:", 71);
             exercises.Add("Home Work 7_2:", 72);
-            //exercises.Add("HomeWork_5", 8);
 
             return exercises;
         }
-
 
         public Dictionary<int, string> ExerciseDescriptions()
         {
@@ -57,6 +46,5 @@ namespace BeckEndLessons.classes
 
             return descriptions;
         }
-
     }
 }

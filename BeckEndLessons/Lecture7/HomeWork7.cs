@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BeckEndLessons.Lecture7
+﻿namespace BeckEndLessons.Lecture7
 {
     public static class HomeWork7
     {
@@ -19,7 +13,6 @@ namespace BeckEndLessons.Lecture7
             fWorker.Edit(fWorker);
             fWorker.Delete(fWorker);
         }
-
         public static void HomeWork_7_2()
         {
             double CreditAmount =  WriteTextToConsole.GetNumberFromUser("Please enter the required amount:", foreColor: ConsoleColor.DarkYellow);
