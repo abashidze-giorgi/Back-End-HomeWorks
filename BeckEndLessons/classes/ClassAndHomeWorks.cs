@@ -8,6 +8,8 @@
             exercises.Add("Home work 3_1:", 31);
             exercises.Add("Home work 3_2:", 32);
             exercises.Add("Home work 3_3:", 33);
+            exercises.Add("Home work 4_1:", 41);
+            exercises.Add("Home work 4_2:", 42);
             exercises.Add("Home Work 7_1:", 71);
             exercises.Add("Home Work 7_2:", 72);
 
@@ -25,24 +27,6 @@
                 "Subtract the smallest\r\n" +
                 "2. If the smallest number is 0, the program should output\r\nError 0 cannot be divided.");
             descriptions.Add(33, "Swap the values of the two variables");
-
-            descriptions.Add(71, "Create an abstract class FileWorker that\nwill have 1 parameter maximum file size,1" +
-                "\nAbstract parameter file extension and 4 methods Read(),Write(),Edit(),Delete()" +
-                "\nMethods in the child class must be able to call the parent class" +
-                "\nOverriding methods and also using parameters");
-            descriptions.Add(72, "Create an interface FinanceOperations that will have" +
-                "\r\n2 methods\r\nCalculateLoanPercent(int month, double AmountPerMonth)," +
-                "\r\nCheckUserHistory()\r\nThe class Bank and MicroFinance implement FinanceOperations" +
-                "\r\ninterface.\r\nIn the case of Bank, CheckUserHistory returns either true or random" +
-                "\r\nfalse\r\nIn case of agreement, we should call CalculateLoanPercent()" +
-                "\r\nwhich will calculate how much the customer n will have to pay" +
-                "\r\nIn the case of taking a monthly loan, several will count" +
-                "\r\nInterest has to be paid in total. Assume that the percentage" +
-                "\r\nThere is a fixed maximum amount of 5%." +
-                "\r\n\r\nIn the case of MicroFinance, CheckUserHistory is always True and" +
-                "\r\nCalculateLoanPercent() will return the maximum loan amount in this" +
-                "\r\nIn this case, the commission is 10% and is added every month" +
-                "\r\nService fee in the amount of $4");
 
             return descriptions;
         }

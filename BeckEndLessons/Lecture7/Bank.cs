@@ -2,9 +2,11 @@
 {
     public class Bank : IFinanceOperations
     {
-        public string CalculateLoanPercent(double month, double AmountPerMonth)
+        private double yearPercent = 0.05;
+        private int monthsInYear = 12;
+        public string CalculateLoanPercent(double loanPeriod, double loanAmount)
         {
-            return (Math.Round(month * AmountPerMonth * 0.05).ToString());
+            return (Math.Round(loanPeriod / monthsInYear * yearPercent * loanAmount).ToString());
         }
         public bool CheckUserHistory()
         {

@@ -1,5 +1,6 @@
 ﻿using BeckEndLessons.classes;
 using BeckEndLessons.Lecture3;
+using BeckEndLessons.Lecture4;
 using BeckEndLessons.Lecture7;
 
 namespace BeckEndLessons.Program
@@ -59,6 +60,9 @@ namespace BeckEndLessons.Program
                     case 33: RunHomeWork3(i); break;
                     case 71: RunHomeWork7(i); break;
                     case 72: RunHomeWork7(i); break;
+                    case 41: RunHomeWork4(i); break;
+                    case 42: RunHomeWork4(i); break;
+
                 }
             }
               
@@ -73,18 +77,27 @@ namespace BeckEndLessons.Program
                 case 32: HomeWork3.HomeWork3_2(); break;
                 case 33: HomeWork3.HomeWork3_3(); break;
             }
-            
         }
 
         private void RunHomeWork7(int i)
         {
-            WriteTextToConsole.WriteColoredText($"Description: {descriptions[i]}", foreColor: ConsoleColor.DarkCyan);
+            HomeWork7 hw = new HomeWork7();
             switch (i)
             {
-                case 71: HomeWork7.HomeWork_7_1(); break;
-                case 72: HomeWork7.HomeWork_7_2(); break;
+                case 71: hw.HomeWork_7_1(); break;
+                case 72: hw.HomeWork_7_2(); break;
             }
+        }
 
+        private void RunHomeWork4(int i)
+        {
+            HomeWork4 hw4 = new HomeWork4();
+            switch (i)
+            {
+                case 41: hw4.HomeWork_4_1(); ; break;
+                case 42: hw4.HomeWork_4_2(); break;
+            }
+           
         }
     }
 }
