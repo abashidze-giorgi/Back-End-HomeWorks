@@ -62,11 +62,10 @@ namespace BeckEndLessons.Program
                     case 72: RunHomeWork7(i); break;
                     case 41: RunHomeWork4(i); break;
                     case 42: RunHomeWork4(i); break;
-
                 }
             }
-              
-            }
+        }      
+
 
         private void RunHomeWork3(int i)
         {

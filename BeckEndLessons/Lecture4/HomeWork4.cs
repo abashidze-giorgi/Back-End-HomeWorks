@@ -27,7 +27,7 @@ namespace BeckEndLessons.Lecture4
 
         public void HomeWork_4_1()
         {
-            hw1.WriteDescription(hw1,Execution_4_1);
+            hw1.WriteDescAndRunFunction(hw1,Execution_4_1);
         }
 
         public void Execution_4_1()
@@ -45,7 +45,7 @@ namespace BeckEndLessons.Lecture4
 
         public void HomeWork_4_2()
         {
-            hw2.WriteDescription(hw2, Execution_4_2);
+            hw2.WriteDescAndRunFunction(hw2, Execution_4_2);
         }
 
         private void Execution_4_2()

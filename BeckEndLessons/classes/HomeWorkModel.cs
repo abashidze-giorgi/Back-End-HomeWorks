@@ -15,7 +15,7 @@ namespace BeckEndLessons.classes
         public string Description { get => description; set => description = value; }
         public int Index { get => index; set => index = value; }
 
-        public void WriteDescription(HomeWorkModel hwm, Action method )
+        public void WriteDescAndRunFunction(HomeWorkModel hwm, Action method )
         {
             WriteTextToConsole.WriteColoredText($"{hwm.Name}", $"Description: {hwm.Description}", foreColor: ConsoleColor.DarkCyan);
             method();

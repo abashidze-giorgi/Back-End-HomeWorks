@@ -34,11 +34,11 @@ namespace BeckEndLessons.Lecture7
         };
         public void HomeWork_7_1()
         {
-            hw1.WriteDescription(hw1, Execution_7_1);
+            hw1.WriteDescAndRunFunction(hw1, Execution_7_1);
         }
         public void HomeWork_7_2()
         {
-            hw2.WriteDescription(hw2, Execution_7_2);
+            hw2.WriteDescAndRunFunction(hw2, Execution_7_2);
         }
 
         private void Execution_7_1()
