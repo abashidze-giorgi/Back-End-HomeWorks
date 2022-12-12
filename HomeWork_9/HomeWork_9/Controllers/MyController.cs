@@ -15,7 +15,8 @@ namespace HomeWork_9.Controllers
     [ApiController]
     public class MyController : ControllerBase
     {
-        private string filePath = @"C:\Users\Giorgi\source\repos\HomeWork_9\HomeWork_9\Files\Persons.json";
+        // C:\Users\Giorgi\source\repos\BackEndLessons\Back-End-HomeWorks\HomeWork_9\HomeWork_9\Files\Persons.json
+        private string filePath = Path.Combine(Directory.GetCurrentDirectory(), @"Files\Persons.json");
         [HttpGet("user")]
         public IActionResult GetPersons()
         {

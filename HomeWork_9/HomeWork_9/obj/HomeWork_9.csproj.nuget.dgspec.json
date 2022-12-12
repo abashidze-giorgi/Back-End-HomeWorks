@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Giorgi\\source\\repos\\HomeWork_9\\HomeWork_9\\HomeWork_9.csproj": {}
+    "C:\\Users\\Giorgi\\source\\repos\\BackEndLessons\\Back-End-HomeWorks\\HomeWork_9\\HomeWork_9\\HomeWork_9.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Giorgi\\source\\repos\\HomeWork_9\\HomeWork_9\\HomeWork_9.csproj": {
+    "C:\\Users\\Giorgi\\source\\repos\\BackEndLessons\\Back-End-HomeWorks\\HomeWork_9\\HomeWork_9\\HomeWork_9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Giorgi\\source\\repos\\HomeWork_9\\HomeWork_9\\HomeWork_9.csproj",
+        "projectUniqueName": "C:\\Users\\Giorgi\\source\\repos\\BackEndLessons\\Back-End-HomeWorks\\HomeWork_9\\HomeWork_9\\HomeWork_9.csproj",
         "projectName": "HomeWork_9",
-        "projectPath": "C:\\Users\\Giorgi\\source\\repos\\HomeWork_9\\HomeWork_9\\HomeWork_9.csproj",
+        "projectPath": "C:\\Users\\Giorgi\\source\\repos\\BackEndLessons\\Back-End-HomeWorks\\HomeWork_9\\HomeWork_9\\HomeWork_9.csproj",
         "packagesPath": "C:\\Users\\Giorgi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Giorgi\\source\\repos\\HomeWork_9\\HomeWork_9\\obj\\",
+        "outputPath": "C:\\Users\\Giorgi\\source\\repos\\BackEndLessons\\Back-End-HomeWorks\\HomeWork_9\\HomeWork_9\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
