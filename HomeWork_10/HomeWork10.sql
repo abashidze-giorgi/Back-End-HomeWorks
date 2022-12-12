@@ -48,6 +48,33 @@ select Email as Onedot from Persons where Email  like ('%.%')
 -- შევიტანოთ თუ ორი წერტილია, შესაბამისი ტექსტი და თუ ერთი, მაშნ ერთის შესაბამისი ტექსტი.
 -- :)
 
+
+	(SELECT Email as MEILINFO FROM Persons WHERE len(Email)
+	- len(replace(Email, '.', '')) = 1)							-- 1 წერტილი
+	(SELECT Email as MEILINFO FROM Persons WHERE len(Email) 
+	- len(replace(Email, '.', '')) = 2)							-- 2 წერტილი
+	(SELECT Email as MEILINFO FROM Persons WHERE len(Email) 
+	- len(replace(Email, '.', '')) = 3)							-- 3 წერტილი
+
+
+-- როგორ გავაერთიანო ეს ქუერები და გამოვიტანო ერთ კოლონაში, ვერ მივხვდი.
+/*
+SELECT  (
+    SELECT COUNT(*)
+    FROM   user_table
+) AS tot_user,
+(
+    SELECT COUNT(*)
+    FROM   cat_table
+) AS tot_cat,
+(
+    SELECT COUNT(*)
+    FROM   course_table
+) AS tot_course
+
+*/
+
+
 -- 8
 select * from Persons where PINcode like ('%51')
 -- 9
